@@ -18,6 +18,7 @@
             <div class="lotusBanner">
                 <div class="lotusRightCorner">
                     <div class="lotusInner">
+                        <!--test-->
                         <div class="lotusLogo">
                             <asp:Image ID="Jlogo" ImageUrl="~\Images\jordlogo.png" runat="server" />
                         </div>
