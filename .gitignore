@@ -288,3 +288,6 @@ ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\bin*/
 ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\obj*/
 ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\bin*/
 ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj*/
+*.cache
+ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug*/
+ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\obj\Debug*/
