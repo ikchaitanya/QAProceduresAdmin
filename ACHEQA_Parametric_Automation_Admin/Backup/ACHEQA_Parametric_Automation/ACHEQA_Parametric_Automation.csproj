@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75C13BEC-C20C-4423-8000-3FC8A9309680}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACHEQA_Parametric_Automation</RootNamespace>
+    <AssemblyName>ACHEQA_Parametric_Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\..\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\Cancel.jpg" />
+    <Content Include="Images\Delete.png" />
+    <Content Include="Images\Edit.jpg" />
+    <Content Include="Images\Edit.png" />
+    <Content Include="Images\JordLogo.gif" />
+    <Content Include="Images\jordlogo.png" />
+    <Content Include="Images\Link1.jpg" />
+    <Content Include="Images\Link2.jpg" />
+    <Content Include="Images\LoginBtn.PNG" />
+    <Content Include="Images\run.gif" />
+    <Content Include="InputVariables.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="lookupcategories.aspx" />
+    <Content Include="lookups.aspx" />
+    <Content Include="ProcedureInputs.aspx" />
+    <Content Include="ProcedureSelection.aspx" />
+    <Content Include="QuoteHome.aspx" />
+    <Content Include="Quote_Create.aspx" />
+    <Content Include="Styles\core.css" />
+    <Content Include="Styles\defaultTheme.css" />
+    <Content Include="Styles\jord.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalFunctions.cs" />
+    <Compile Include="InputVariables.aspx.cs">
+      <DependentUpon>InputVariables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputVariables.aspx.designer.cs">
+      <DependentUpon>InputVariables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lookupcategories.aspx.cs">
+      <DependentUpon>lookupcategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lookupcategories.aspx.designer.cs">
+      <DependentUpon>lookupcategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lookups.aspx.cs">
+      <DependentUpon>lookups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lookups.aspx.designer.cs">
+      <DependentUpon>lookups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master_ACHEQA.Master.cs">
+      <DependentUpon>Master_ACHEQA.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_ACHEQA.Master.designer.cs">
+      <DependentUpon>Master_ACHEQA.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProcedureInputs.aspx.cs">
+      <DependentUpon>ProcedureInputs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcedureInputs.aspx.designer.cs">
+      <DependentUpon>ProcedureInputs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcedureSelection.aspx.cs">
+      <DependentUpon>ProcedureSelection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcedureSelection.aspx.designer.cs">
+      <DependentUpon>ProcedureSelection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuoteHome.aspx.cs">
+      <DependentUpon>QuoteHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuoteHome.aspx.designer.cs">
+      <DependentUpon>QuoteHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quote_Create.aspx.cs">
+      <DependentUpon>Quote_Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quote_Create.aspx.designer.cs">
+      <DependentUpon>Quote_Create.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master_ACHEQA.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACHEQABusinessLogicLayer\ACHEQABusinessLogicLayer.csproj">
+      <Project>{3BB4F75D-4EEF-4C40-938D-A63A71092D00}</Project>
+      <Name>ACHEQABusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACHEQAEntities\ACHEQAEntities.csproj">
+      <Project>{55518818-9D72-4FE6-AC17-146335095723}</Project>
+      <Name>ACHEQAEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62778</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

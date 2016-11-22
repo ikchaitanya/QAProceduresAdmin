@@ -1,0 +1,9 @@
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQAEntities\bin\Debug\ACHEQAEntities.dll
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQAEntities\bin\Debug\ACHEQAEntities.pdb
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQAEntities\obj\Debug\ACHEQAEntities.dll
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQAEntities\obj\Debug\ACHEQAEntities.pdb
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQAEntities\obj\Debug\ACHEQAEntities.csprojResolveAssemblyReference.cache
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\bin\Debug\ACHEQAEntities.dll
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\bin\Debug\ACHEQAEntities.pdb
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug\ACHEQAEntities.dll
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug\ACHEQAEntities.pdb

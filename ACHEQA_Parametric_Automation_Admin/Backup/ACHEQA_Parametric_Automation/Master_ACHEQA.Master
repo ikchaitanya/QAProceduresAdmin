@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master_ACHEQA.master.cs"
+    Inherits="ACHEQA_Parametric_Automation.Master_ACHEQA" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ACHE QA Parametric Automation</title>
+    <link href="Styles/core.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/jord.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/defaultTheme.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="lotusui">
+    <form id="form1" runat="server">
+    <div class="lotusFrame">
+        <div class="lotusBanner">
+            <div class="lotusRightCorner">
+                <div class="lotusInner">
+                    <div class="lotusLogo">
+                        <asp:Image ID="Jlogo" ImageUrl="~\Images\jordlogo.png" runat="server" />
+                    </div>
+                    <ul class="lotusInlinelist lotusUtility">
+                        <li class="lotusFirst"><span class="lotusUser">
+                            <asp:Label ID="lblusername" runat="server" ForeColor="White"></asp:Label></span>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lnk_chgpwd" runat="server" OnClick="lnk_chgpwd_Click">Change Password</asp:LinkButton>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lnk_issue" runat="server" OnClick="lnk_issuetracker_Click">Report an Issue</asp:LinkButton>
+                        </li>
+                        <li><a href="Login.aspx">Logout</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lotusTitleBar">
+        <div class="lotusRightCorner">
+            <div class="lotusInner">
+                <ul class="lotusTabs">
+                    <li class="lotusSelected">
+                        <div>
+                            <a href="QuoteHome.aspx">Home</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lotusPlaceBar">
+        <div class="lotusRightCorner">
+            <div class="lotusInner">
+                <h2>
+                    ACHE QA Parametric Automations
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="lotusMain">
+        <!--start colLeft-->
+        <%--Style="display: none"--%>
+        <asp:Panel ID="pnlHome" runat="server" Style="display: block">
+            <div class="lotusColLeft">
+                <div class="lotusMenu" role="menu">
+                    <div class="lotusBottomCorner">
+                        <div class="lotusInner">
+                            <ul>
+                                <li id="lstQuotes" class="lotusSelected" role="menuitem">
+                                    <asp:LinkButton ID="lnkQuotes" runat="server" Text="My Quotes" CausesValidation="false"
+                                        OnClick="lnkQuotes_Click"></asp:LinkButton></li>
+                                <li id="lstQuotesAll" class="lotusSelected" role="menuitem">
+                                    <asp:LinkButton ID="lnkQuotesAll" runat="server" Text="All Quotes" CausesValidation="false"
+                                        OnClick="lnkQuotesAll_Click"></asp:LinkButton></li>
+                                <li id="lstLookups" role="menuitem">
+                                    <asp:LinkButton ID="lnkLookup" runat="server" Text="Lookup Category" CausesValidation="false"
+                                        OnClick="lnkLookup_Click"></asp:LinkButton></li>
+                                <li id="lstLookupValues" role="menuitem">
+                                    <asp:LinkButton ID="lnkLookupValues" runat="server" Text="Lookup Values" CausesValidation="false"
+                                        OnClick="lnkLookupValues_Click"></asp:LinkButton></li>
+                                <li id="lstInputVariables" role="menuitem">
+                                    <asp:LinkButton ID="lnkInputVariables" runat="server" Text="Input Variables" 
+                                        CausesValidation="false" onclick="lnkInputVariables_Click"></asp:LinkButton></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end menu-->
+            </div>
+        </asp:Panel>
+        <div class="lotusContent" role="main">
+            <asp:Panel ID="pnlBreadcrumbs" runat="server" Style="display: block">
+                <div class="lotusBreadcrumbs" role="navigation">
+                    <asp:HyperLink runat="server" ID="lnkQuoteType" Text="My Quotes"></asp:HyperLink>
+                    <asp:HyperLink runat="server" ID="lnkbtnQuotes"></asp:HyperLink>
+                    <asp:HyperLink runat="server" ID="lnkbtnTags"></asp:HyperLink>
+                    <asp:Label ID="lblCurrPage" runat="server"></asp:Label>
+                </div>
+            </asp:Panel>
+            <div>
+                <h2>
+                    <asp:Label ID="lblHeader" runat="server"></asp:Label></h2>
+            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <table class="lotusLegal" cellspacing="0" role="presentation">
+        <tr>
+            <td>
+                <img class="lotusIBMLogoFooter" src="../../css/images/blank.gif" alt="IBM" />
+            </td>
+            <td class="lotusLicense">
+                Since 1972 -
+                <% = System.DateTime.Now.Year.ToString() %>
+                Jord International. All Rights Reserved.
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

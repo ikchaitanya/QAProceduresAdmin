@@ -1,0 +1,15 @@
+
+.lotusBanner .lotusLogo {
+
+  background-image: url("../images/jordlogo/jordlogo.png");
+  height: 24px;
+  width: 51px;
+  margin-top: 3px;
+
+}
+.gridHeader
+{
+    font-weight:bolder ;
+    text-align:center;
+    
+}

@@ -1,0 +1,14 @@
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\bin\Debug\ACHEQADataAccessLayer.dll
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\bin\Debug\ACHEQADataAccessLayer.pdb
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\bin\Debug\ACHEQAEntities.dll
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\bin\Debug\ACHEQAEntities.pdb
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\obj\Debug\ACHEQADataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\obj\Debug\ACHEQADataAccessLayer.dll
+D:\Data\NData\Projects\Projects\ASP.Net\04 QAQC\Web Projects\ACHEQA_WebProject\ACHEQA_Parametric_Automation\ACHEQADataAccessLayer\obj\Debug\ACHEQADataAccessLayer.pdb
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\bin\Debug\ACHEQADataAccessLayer.dll
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\bin\Debug\ACHEQADataAccessLayer.pdb
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\bin\Debug\ACHEQAEntities.dll
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\bin\Debug\ACHEQAEntities.pdb
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\obj\Debug\ACHEQADataAccessLayer.csprojResolveAssemblyReference.cache
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\obj\Debug\ACHEQADataAccessLayer.dll
+D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQADataAccessLayer\obj\Debug\ACHEQADataAccessLayer.pdb
