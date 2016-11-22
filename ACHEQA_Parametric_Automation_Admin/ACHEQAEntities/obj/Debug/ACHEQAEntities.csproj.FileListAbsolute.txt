@@ -7,3 +7,7 @@ D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\AC
 D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\bin\Debug\ACHEQAEntities.pdb
 D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug\ACHEQAEntities.dll
 D:\VenkateshDesaiK\MyProjects\www\LIVE\WEB\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug\ACHEQAEntities.pdb
+C:\Users\ikchaitanya\Documents\QAProceduresAdmin\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\bin\Debug\ACHEQAEntities.dll
+C:\Users\ikchaitanya\Documents\QAProceduresAdmin\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\bin\Debug\ACHEQAEntities.pdb
+C:\Users\ikchaitanya\Documents\QAProceduresAdmin\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug\ACHEQAEntities.dll
+C:\Users\ikchaitanya\Documents\QAProceduresAdmin\ACHEQA_Parametric_Automation_Admin\ACHEQAEntities\obj\Debug\ACHEQAEntities.pdb
